@@ -35,8 +35,8 @@ def porcentaje(numeros):
 
 def calculadora():
     print("Bienvenido a la calculadora")
-    operacion = input("Elige una operación (suma, resta, multiplicar, dividir, potenciar, porcentaje): ").strip().lower()
-    num_numeros = int(input("¿Cuántos números quieres ingresar? "))
+    operacion = input("Escoje una operación (suma, resta, multiplicar, dividir, potenciar, porcentaje): ").strip().lower()
+    num_numeros = int(input("Cuántos números quieres ingresar? "))
     
     numeros = []
     for i in range(num_numeros):
